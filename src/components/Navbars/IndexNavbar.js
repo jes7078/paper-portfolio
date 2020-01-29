@@ -67,7 +67,7 @@ function IndexNavbar() {
 				</div>
 				<Collapse className="justify-content-end" navbar isOpen={navbarCollapse}>
 					<Nav navbar>
-						<NavItem>
+						{/* <NavItem>
 							<NavLink
 								data-placement="bottom"
 								href="https://twitter.com/CreativeTim?ref=creativetim"
@@ -77,53 +77,53 @@ function IndexNavbar() {
 								<i className="fa fa-twitter" />
 								<p className="d-lg-none">Twitter</p>
 							</NavLink>
-						</NavItem>
+						</NavItem> */}
 						<NavItem>
 							<NavLink
 								data-placement="bottom"
-								href="https://www.facebook.com/CreativeTim?ref=creativetim"
+								href="mailto:jeffrey.sojack@gmail.com"
 								target="_blank"
-								title="Like us on Facebook"
+								title="Send me an email"
 							>
-								<i className="fa fa-facebook-square" />
-								<p className="d-lg-none">Facebook</p>
+								<i className="fa fa-paper-plane" />
+								<p className="d-lg-none">Email</p>
 							</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink
 								data-placement="bottom"
-								href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+								href="https://www.linkedin.com/in/jeffrey-sojack"
 								target="_blank"
-								title="Follow us on Instagram"
+								title="Checkout my LinkedIn"
 							>
-								<i className="fa fa-instagram" />
-								<p className="d-lg-none">Instagram</p>
+								<i className="fa fa-linkedin" />
+								<p className="d-lg-none">LinkedIn</p>
 							</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink
 								data-placement="bottom"
-								href="https://www.github.com/CreativeTimOfficial/paper-kit-react?ref=creativetim"
+								href="https://github.com/jes7078"
 								target="_blank"
-								title="Star on GitHub"
+								title="Checkout my GitHub"
 							>
 								<i className="fa fa-github" />
 								<p className="d-lg-none">GitHub</p>
 							</NavLink>
 						</NavItem>
-						<NavItem>
+						{/* <NavItem>
 							<NavLink
 								href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
 								target="_blank"
 							>
 								<i className="nc-icon nc-book-bookmark" /> Documentation
 							</NavLink>
-						</NavItem>
-						<NavItem>
+						</NavItem> */}
+						{/* <NavItem>
 							<Button className="btn-round" color="danger" href="#pablo" target="_blank" disabled>
 								Upgrade to Pro
 							</Button>
-						</NavItem>
+						</NavItem> */}
 					</Nav>
 				</Collapse>
 			</Container>

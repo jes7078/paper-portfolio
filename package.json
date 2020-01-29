@@ -26,6 +26,9 @@
     "compile-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css",
     "minify-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.min.css --output-style compressed",
     "map-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css --source-map true"
+    "predeploy": "react-scripts build",
+    "deploy": "echo 'To setup deployment run: yarn setup-deploy'",
+    "setup-deploy": "app-app --deploy && yarn deploy",
   },
   "eslintConfig": {
     "extends": "react-app"

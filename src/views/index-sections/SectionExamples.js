@@ -30,39 +30,39 @@ function SectionExamples() {
         <Container>
           <Row className="example-page">
             <Col className="text-center" md="6">
-              <a href="examples/landing.html" target="_blank">
+              <a href="https://pinellas-ale-trail.netlify.com/" target="_blank">
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/img/examples/landing-page.png")}
+                  src={require("assets/img/examples/PinellasAleTrail.png")}
                   style={{ width: "100%" }}
                 />
               </a>
               <Button
                 className="btn-outline-neutral btn-round"
                 color="default"
-                href="/landing-page"
+                href="https://pinellas-ale-trail.netlify.com/"
                 target="_blank"
               >
-                Landing Page
+                Capstone
               </Button>
             </Col>
             <Col className="text-center" md="6">
-              <a href="examples/profile.html" target="_blank">
+              <a href="https://pinellas-ale-trail.herokuapp.com/index.html" target="_blank">
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/img/examples/profile-page.png")}
+                  src={require("assets/img/examples/PinellasAleTrailAPI.png")}
                   style={{ width: "100%" }}
                 />
               </a>
               <Button
                 className="btn-outline-neutral btn-round"
                 color="default"
-                href="/profile-page"
+                href="https://pinellas-ale-trail.herokuapp.com/index.html"
                 target="_blank"
               >
-                Profile Page
+                Capstone API
               </Button>
             </Col>
           </Row>

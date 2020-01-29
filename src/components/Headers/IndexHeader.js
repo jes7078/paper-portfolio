@@ -46,9 +46,6 @@ function IndexHeader() {
           </a>
         </h6>
         <h6>
-        {/* <a href="www.linkedin.com/in/jeffrey-sojack" style={{color: "white", fontSize:"2rem"} }>
-        LinkedIn
-          </a> */}
             <a id="linkedin" href="www.linkedin.com/in/jeffrey-sojack">
         LinkedIn
           </a>

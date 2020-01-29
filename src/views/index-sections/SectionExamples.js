@@ -30,7 +30,7 @@ function SectionExamples() {
         <Container>
           <Row className="example-page">
             <Col className="text-center" md="6">
-              <a href="https://pinellas-ale-trail.netlify.com/" target="_blank">
+              <a href="https://pinellas-ale-trail.netlify.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
@@ -48,7 +48,7 @@ function SectionExamples() {
               </Button>
             </Col>
             <Col className="text-center" md="6">
-              <a href="https://pinellas-ale-trail.herokuapp.com/index.html" target="_blank">
+              <a href="https://pinellas-ale-trail.herokuapp.com/index.html" target="_blank" rel="noopener noreferrer">
                 <img
                   alt="..."
                   className="img-rounded img-responsive"

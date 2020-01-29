@@ -94,6 +94,7 @@ function IndexNavbar() {
 								data-placement="bottom"
 								href="https://www.linkedin.com/in/jeffrey-sojack"
 								target="_blank"
+								rel="noopener noreferrer"
 								title="Checkout my LinkedIn"
 							>
 								<i className="fa fa-linkedin" />
@@ -105,6 +106,7 @@ function IndexNavbar() {
 								data-placement="bottom"
 								href="https://github.com/jes7078"
 								target="_blank"
+								rel="noopener noreferrer"
 								title="Checkout my GitHub"
 							>
 								<i className="fa fa-github" />

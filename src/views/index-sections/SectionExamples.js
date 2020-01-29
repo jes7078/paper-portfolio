@@ -66,6 +66,44 @@ function SectionExamples() {
               </Button>
             </Col>
           </Row>
+          <Row className="example-page">
+            <Col className="text-center" md="6">
+              <a href="https://who-works-here-jeffreysojack.netlify.com/" target="_blank" rel="noopener noreferrer">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/examples/WhoWorksHere.png")}
+                  style={{ width: "100%" }}
+                />
+              </a>
+              <Button
+                className="btn-outline-neutral btn-round"
+                color="default"
+                href="https://who-works-here-jeffreysojack.netlify.com/"
+                target="_blank"
+              >
+                WhoWorksHere
+              </Button>
+            </Col>
+            <Col className="text-center" md="6">
+              <a href="https://minesweeper-jeffreysojack.netlify.com/" target="_blank" rel="noopener noreferrer">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/examples/MineSweeper.png")}
+                  style={{ width: "100%" }}
+                />
+              </a>
+              <Button
+                className="btn-outline-neutral btn-round"
+                color="default"
+                href="https://minesweeper-jeffreysojack.netlify.com/"
+                target="_blank"
+              >
+                MineSweeper
+              </Button>
+            </Col>
+          </Row>
         </Container>
       </div>{" "}
     </>

@@ -27,8 +27,9 @@
     "minify-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.min.css --output-style compressed",
     "map-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css --source-map true",
     "predeploy": "react-scripts build",
-    "deploy": "echo 'To setup deployment run: yarn setup-deploy'",
-    "setup-deploy": "app-app --deploy && yarn deploy"
+    "deploy": "netlify deploy --prod --dir=build",
+    "setup-deploy": "app-app --deploy && yarn deploy",
+    "postdeploy": "echo 'Your site was deployed to https://jeffrey-sojack-portfolio.netlify.com'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,5 +48,6 @@
   },
   "optionalDependencies": {
     "typescript": "3.5.2"
-  }
+  },
+  "homepage": "https://jeffrey-sojack-portfolio.netlify.com"
 }

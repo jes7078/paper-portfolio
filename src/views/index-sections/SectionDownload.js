@@ -30,11 +30,9 @@ function SectionDownload() {
         <Container className="text-center">
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title">Do you like what you see?</h2>
+              <h2 className="title">Download my resume!!!</h2>
               <p className="description">
-                Cause if you do, it can be yours for Free. Hit the button below
-                and download it. Start a new project or give an old Bootstrap 4
-                project a new look.
+                Free pdf copy of my resume
               </p>
             </Col>
             <Col className="ml-auto mr-auto download-area" md="5">
@@ -151,7 +149,7 @@ function SectionDownload() {
                 <img
                   alt="..."
                   className="img-rounded img-responsive img-skills"
-                  src={require("assets/img/examples/React.jpg")}
+                  src={require("assets/img/examples/postgresql.jpg")}
                 />
 </section>
               </Col>

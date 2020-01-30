@@ -50,9 +50,7 @@ function IndexNavbar() {
 		<Navbar className={classnames('fixed-top', navbarColor)} expand="lg">
 			<Container>
 				<div className="navbar-translate">
-					{/* <NavbarBrand data-placement="bottom" href="/index" target="_blank" title="Coded by Creative Tim">
-						Paper Kit hello React
-					</NavbarBrand> */}
+					<NavbarBrand data-placement="bottom" href="/index" target="_blank" />
 					<button
 						aria-expanded={navbarCollapse}
 						className={classnames('navbar-toggler navbar-toggler', {

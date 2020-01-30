@@ -65,8 +65,8 @@ function Index() {
         <SectionDark />
         <SectionLogin /> */}
         <SectionExamples />
-         {/* <SectionDownload />
-        <DemoFooter /> */}
+        <SectionDownload />
+        {/* <DemoFooter /> */}
       </div>
     </>
   );

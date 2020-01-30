@@ -41,14 +41,19 @@ function SectionDownload() {
               <Button
                 className="btn-round"
                 color="danger"
-                href="http://www.creative-tim.com/product/paper-kit-react?ref=pkr-index-page"
+                href="/files/JeffreySojackResume.pdf"
                 target="_blank"
+                download
               >
-                Download free React
+                Download My Resume
               </Button>
+              <Row className="example-page">
+          <Col className="text-center" md="6">
+              </Col>
+          </Row>
             </Col>
           </Row>
-          <Row className="text-center upgrade-pro">
+          {/* <Row className="text-center upgrade-pro">
             <Col className="ml-auto mr-auto" md="8">
               <h2 className="title">Want more?</h2>
               <p className="description">
@@ -66,10 +71,100 @@ function SectionDownload() {
                 Upgrade to PRO
               </Button>
             </Col>
-          </Row>
-          <Row className="justify-content-md-center sharing-area text-center">
+          </Row> */}
+
+
+<div id="images">
+          <Container>
+            <div className="title">
+              <h3>Skills</h3>
+            </div>
+            <Row>
+              <Col md="3" sm="6">
+                <h4 className="images-title">React</h4>
+                <section className="secSize">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive img-skills"
+                  src={require("assets/img/examples/React.jpg")}
+                />
+                </section>
+              </Col>
+              <Col md="3" sm="6">
+                <h4 className="images-title">C# .Net</h4>
+                <section className="secSize">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive img-skills"
+                  src={require("assets/img/examples/mNet.png")}
+                />
+                </section>
+              </Col>
+              <Col md="3" sm="6">
+                <h4 className="images-title">HTML</h4>
+                <section className="secSize">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive img-skills"
+                  src={require("assets/img/examples/HTML5.png")}
+                />
+                </section>
+              </Col>
+              <Col md="3" sm="6">
+                <h4 className="images-title">JavaScript</h4>
+                <section className="secSize">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive img-skills"
+                  src={require("assets/img/examples/JavaScript.png")}
+                />
+                </section>
+              </Col>
+            </Row>
+          </Container>
+          <div id="images">
+          <Container>
+            <Row>
+            <Col className="ml-auto" md="3" sm="6">
+                <h4 className="images-title">CSS</h4>
+                <section className="secSize">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive img-skills"
+                  src={require("assets/img/examples/CSS.png")}
+                />
+                </section>
+              </Col>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Visual Studio Code</h4>
+                <section className="secSize">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive img-skills"
+                  src={require("assets/img/examples/VisualStudio.png")}
+                />
+                </section>
+              </Col>
+              <Col className="mr-auto" md="3" sm="6">
+                <h4 className="images-title">PostgreSQL</h4>
+                <section className="secSize">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive img-skills"
+                  src={require("assets/img/examples/React.jpg")}
+                />
+</section>
+              </Col>
+            </Row>
+          </Container>
+          </div>
+        </div>
+
+
+
+          {/* <Row className="justify-content-md-center sharing-area text-center">
             <Col className="text-center" lg="8" md="12">
-              <h3>Thank you for supporting us!</h3>
+              <h3>Skills</h3>
             </Col>
             <Col className="text-center" lg="8" md="12">
               <Button
@@ -79,7 +174,7 @@ function SectionDownload() {
                 id="tooltip3373767"
                 onClick={e => e.preventDefault()}
               >
-                <i className="fa fa-twitter" /> Twitter
+                <i class="fab fa-react"></i>React
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip3373767">
                 Tweet!
@@ -121,7 +216,7 @@ function SectionDownload() {
                 Star on Github
               </UncontrolledTooltip>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </div>
     </>
